@@ -59,6 +59,17 @@ print(result)
 | TEN  | Shared Tenant Service Provider      |
 | TRES | Toll Reseller                       |
 
+## Errors
+| Error code | Description                                 |
+|------------|---------------------------------------------|
+| 1          | Invalid state value                         |
+| 2          | Could not execute query. Invalid parameters |
+| 3          | No results found. Check Query parameters.   |
+| 4          | Invalid value for FRN.                      |
+| 5          | Invalid value for Filer ID.                 |
+| 6          | Invalid value for Communications Type.      |
+| 7          | Wrong Request Method. Only GET is allowed.  |
+
 ## References
 * [FCC Form 499 Filer Database](http://apps.fcc.gov/cgb/form499/499a.cfm)
 * [FCC Form 499-A](https://www.fcc.gov/formpage.html)
